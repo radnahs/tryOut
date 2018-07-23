@@ -1,5 +1,5 @@
 /**
-* Project: rytry
+* Project: tryOut
 * Package Name:package org.radnahs.tryOut.barclays;
 * File Name: AwesomeCombination.java
 * Create Date: Feb 15, 2017
@@ -10,6 +10,12 @@
 */
 package org.radnahs.tryOut.barclays;
 
+/**
+ * Problem description:-https://en.wikipedia.org/wiki/Bell_triangle
+ * 
+ * @author Shantanu Sikdar
+ * 
+ */
 public class AwesomeCombination {
 
 	public static void main(String[] args) {
@@ -39,8 +45,6 @@ public class AwesomeCombination {
 			}
 			System.out.println("]");
 		}*/
-		
-		
 		
 	}
 

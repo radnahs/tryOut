@@ -1,5 +1,5 @@
 /**
-* Project: rytry
+* Project: tryOut
 * Package Name:package org.radnahs.tryOut.barclays;
 * File Name: Problem1.java
 * Create Date: Feb 15, 2017
@@ -10,6 +10,12 @@
 */
 package org.radnahs.tryOut.barclays;
 
+/**
+ * Problem description:-
+ * 
+ * @author Shantanu Sikdar
+ * 
+ */
 public class Problem1 {
 
 	public static void main(String[] args) {
