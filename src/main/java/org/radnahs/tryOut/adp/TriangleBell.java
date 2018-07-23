@@ -19,10 +19,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * Problem description:-https://en.wikipedia.org/wiki/Bell_triangle
+ * 
  * @author Shantanu Sikdar
  * 
- */
-public class TriangleBell {
+ */public class TriangleBell {
 
 	public static void triangleBellType1(int numOfRows, int beginWith) {
 		Map<Integer, List<Integer>> mapRow = new HashMap<Integer, List<Integer>>(numOfRows);
