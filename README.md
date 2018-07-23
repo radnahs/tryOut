@@ -1,4 +1,4 @@
-rytry
+tryOut
 =====
 
 code base carrying
@@ -7,4 +7,4 @@ its a java code base created over the year. its not any project. just for refere
 
 These are the various interview questions asked to friends and me.
 I tried to solve these then and there, so may not be the optimum solution.
-But java aspirants can refer the questions.
+But java aspirants can refer these questions.
