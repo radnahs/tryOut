@@ -24,15 +24,7 @@ import java.util.Map;
  */
 public class TriangleBell {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		triangleBell(10,1);
-		//triangleBell(10,2);
-	}
-	
-	public static void triangleBell(int numOfRows, int beginWith) {
+	public static void triangleBellType1(int numOfRows, int beginWith) {
 		Map<Integer, List<Integer>> mapRow = new HashMap<Integer, List<Integer>>(numOfRows);
 		for (int i = 0; i < numOfRows; i++) {
 			List<Integer> currLst = new ArrayList<Integer>();
@@ -41,10 +33,11 @@ public class TriangleBell {
 			}else{
 				List<Integer> prevLst = mapRow.get(i-1);
 				for (int j = 0; j < i; j++) {
-					if(j == 0)
+					if(j == 0){
 						currLst.add(j,prevLst.get(prevLst.size()-1));
-					else						
-						currLst.add(j,currLst.get(j-1)+prevLst.get(j-1));					
+					}else{						
+						currLst.add(j,currLst.get(j-1)+prevLst.get(j-1));
+					}
 				}
 			}			
 			mapRow.put(i, currLst);
@@ -60,9 +53,8 @@ public class TriangleBell {
 		
 	}
 	
-	
 	//by Kanchan
-	public static void main1(String[] args) {
+	public static void triangleBellType2() {
 		int[] currentRow = new int[20];
 		int[] previousRow = new int[20];
 		int previousRowIndex = 1;
@@ -87,4 +79,11 @@ public class TriangleBell {
 			}
 		}
 	}
+	
+	public static void main(String[] args) {
+		triangleBellType1(10,1);
+		//triangleBellType1(10,2);
+		triangleBellType2();
+	}
+
 }
