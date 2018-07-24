@@ -1,5 +1,5 @@
 /**
- * <p>Project: org.radnahs.tryOut.continuum </p>
+ * <p>Project: tryOut </p>
  * <p>Package Name: org.radnahs.tryOut.continuum </p>
  * <p>File Name: C.java </p>
  * <p>Create Date: Jun 9, 2017 </p>
@@ -30,7 +30,7 @@ public class C {
     }
 
     public static void main(String[] args) {
-    	//f("abc");
+    	f("abc");
     	f(100);
     }
 }

@@ -1,5 +1,5 @@
 /**
- * <p>Project: org.radnahs.tryOut.continuum </p>
+ * <p>Project: tryOut </p>
  * <p>Package Name: org.radnahs.tryOut.continuum </p>
  * <p>File Name: ContinuumThread.java </p>
  * <p>Create Date: Jun 9, 2017 </p>
