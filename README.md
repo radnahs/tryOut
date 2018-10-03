@@ -1,10 +1,13 @@
 tryOut
 =====
 
-code base carrying
+code base carrying various tryouts....
+
 *******
-its a java code base created over the year. its not any project. just for reference.
+Its a java code base created over the year. Its not any project, but just for reference.
 
 These are the various interview questions asked to friends and me.
+
 I tried to solve these then and there, so may not be the optimum solution.
+
 But java aspirants can refer these questions.
