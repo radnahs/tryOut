@@ -36,7 +36,7 @@ public class MutabilityImmutability {
 		System.out.println("Shantanu age year before modification = " + employee.getMutableClassAge().getYear());
 		age.setYear(1983);
 		System.out.println("Shantanu age year after modification = " + employee.getMutableClassAge().getYear());
-	}
+	}		
 	
 
 	private void callToImmutable(){
@@ -44,10 +44,12 @@ public class MutabilityImmutability {
 		age.setDay(1);
 		age.setMonth(1);
 		age.setYear(1992);
-		ImmutableClassEmployee employee = new ImmutableClassEmployee(1, age, "Shantanu");
+		ImmutableClassEmployee employee = new ImmutableClassEmployee(1, age, "Shantanu");			
 		System.out.println("Shantanu age year before modification = " + employee.getMutableClassAge().getYear());
 		age.setYear(1983);
-		System.out.println("Shantanu age year after modification = " + employee.getMutableClassAge().getYear());
+		System.out.println("Shantanu age year after modification using age.setYear(1993); = " + employee.getMutableClassAge().getYear());
+		employee.getMutableClassAge().setYear(2018);
+		System.out.println("Shantanu age year after modification using employee.getMutableClassAge().setYear(2018);= " + employee.getMutableClassAge().getYear());
 	}
 
 }
@@ -135,12 +137,16 @@ final class ImmutableClassEmployee{
 	public String getName() {
 		return name;
 	}
-
+	
+	//Securing the Getter of the mutable class
+		//referred in immutable class.
 	public MutableClassAge getMutableClassAge() {
-		return mutableClassAge;
+		MutableClassAge cloneAge = new MutableClassAge();
+	        cloneAge.setDay(this.mutableClassAge.getDay());
+	        cloneAge.setMonth(this.mutableClassAge.getMonth());
+	        cloneAge.setYear(this.mutableClassAge.getYear());
+		return cloneAge;
 	}
 
 
 }
-
-
