@@ -1,6 +1,6 @@
 /**
- * <p>Project: tryout </p>
- * <p>Package Name: com.shandar.tryout.logicMonitor </p>
+ * <p>Project: tryoOut </p>
+ * <p>Package Name: org.radnahs.tryOut.logicMonitor </p>
  * <p>File Name: ReversingStringInteger.java </p>
  * <p>Create Date: 04-Mar-2020 </p>
  * <p>Create Time: 8:51:23 am </p>
@@ -10,7 +10,7 @@
  * @version 1.0
  */
 
-package com.shandar.tryout.logicMonitor;
+package org.radnahs.tryOut.logicMonitor;
 
 import java.util.Stack;
 

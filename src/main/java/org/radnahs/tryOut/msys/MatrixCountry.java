@@ -1,6 +1,6 @@
 /**
- * <p>Project: tryout[] </p>
- * <p>Package Name: com.shandar.tryout.msys </p>
+ * <p>Project: tryOut[] </p>
+ * <p>Package Name: org.radnahs.tryOut.msys </p>
  * <p>File Name: MatrixCountry.java </p>
  * <p>Create Date: 13-Mar-2020 </p>
  * <p>Create Time: 9:24:21 am </p>
@@ -10,7 +10,7 @@
  * @version 1.0
  */
 
-package com.shandar.tryout.msys;
+package org.radnahs.tryOut.msys;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,6 +1,6 @@
 /**
- * <p>Project: tryout </p>
- * <p>Package Name: com.shandar.tryout.msys </p>
+ * <p>Project: tryOut </p>
+ * <p>Package Name: org.radnahs.tryOut.msys </p>
  * <p>File Name: CustomHashMapTest.java </p>
  * <p>Create Date: 11-Mar-2020 </p>
  * <p>Create Time: 10:50:13 am </p>
@@ -9,7 +9,7 @@
  * @author Shantanu Sikdar
  * @version 1.0
  */
-package com.shandar.tryout.msys;
+package org.radnahs.tryOut.msys;
 
 import java.util.ArrayList;
 import java.util.HashMap;

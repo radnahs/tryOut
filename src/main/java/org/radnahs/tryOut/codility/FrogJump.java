@@ -1,6 +1,6 @@
 /**
- * <p>Project: tryout </p>
- * <p>Package Name: com.shandar.tryout.codility </p>
+ * <p>Project: tryOut </p>
+ * <p>Package Name: org.radnahs.tryOut.codility </p>
  * <p>File Name: FrogJump.java </p>
  * <p>Create Date: 12-Mar-2020 </p>
  * <p>Create Time: 11:31:54 pm </p>
@@ -10,7 +10,7 @@
  * @version 1.0
  */
 
-package com.shandar.tryout.codility;
+package org.radnahs.tryOut.codility;
 
 /**
  * A small frog wants to get to the other side of the road. The frog is

@@ -1,5 +1,5 @@
 /**
- * <p>Project: tryout </p>
+ * <p>Project: tryOut </p>
  * <p>Package Name: com.shandar.tryout.msys </p>
  * <p>File Name: MacValMultipleOf3InArray.java </p>
  * <p>Create Date: 13-Mar-2020 </p>
@@ -10,7 +10,7 @@
  * @version 1.0
  */
 
-package com.shandar.tryout.msys;
+package org.radnahs.tryOut.msys;
 
 /**
  * @author : Shantanu Sikdar

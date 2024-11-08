@@ -2,7 +2,7 @@
  * 
  * 
  */
-package com.shandar.tryout.codility;
+package org.radnahs.tryOut.codility;
 
 import java.util.ArrayList;
 import java.util.Arrays;

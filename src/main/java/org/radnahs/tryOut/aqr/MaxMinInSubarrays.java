@@ -1,6 +1,6 @@
 /**
- * <p>Project: tryout </p>
- * <p>Package Name: com.shandar.tryout.aqr </p>
+ * <p>Project: tryOut </p>
+ * <p>Package Name: org.radnahs.tryOut.aqr </p>
  * <p>File Name: Problem2.java </p>
  * <p>Create Date: 26-Jan-2020 </p>
  * <p>Create Time: 10:06:07 am </p>
@@ -10,7 +10,7 @@
  * @version 1.0
  */
 
-package com.shandar.tryout.aqr;
+package org.radnahs.tryOut.aqr;
 
 import java.util.ArrayList;
 import java.util.Collections;

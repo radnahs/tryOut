@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.webtual</groupId>
-  <artifactId>rytry</artifactId>
+  <groupId>com.radnahs</groupId>
+  <artifactId>tryOut</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
-  <name>rytry</name>
+  <name>tryOut</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -327,12 +327,12 @@
 		</dependency>
 		
 		<!-- Test -->
-		<dependency>
+		<!--<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency>-->
 		
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -359,12 +359,12 @@
 		</dependency>
 
 		<!-- Start: Dynamic Jasper Dependency -->        
-        <dependency>
+        <!--<dependency>
 	    	<groupId>ar.com.fdvs</groupId>
 	    	<artifactId>DynamicJasper</artifactId>
 	    	<version>5.1.0</version>
-	    	<!-- <version>3.0.5</version> -->
-	    </dependency>
+	    	 <version>3.0.5</version> 
+	    </dependency>-->
 	    <!-- End: Dynamic Jasper Dependency -->
 	    
 	    <!-- Start: only for data from xml  -->
@@ -505,8 +505,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>21</source>
+                    <target>21</target>
                     <compilerArgument>-Xlint:all</compilerArgument>
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>

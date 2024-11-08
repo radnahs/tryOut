@@ -32,7 +32,7 @@ import javax.swing.SwingUtilities;
 
 /**
  * Tic-tac-toe (also known as Noughts and crosses or Xs and Os) is a paper-and-pencil game for two players, X and O, who take turns marking
- *  the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the 
+ *  the spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the 
  *  game.
  *  Design an online version of this game with one human and one computer player. The player who starts is chosen randomly. Objective 
  *  of the program is to ensure that the computer always wins or draws (and never loses). 
@@ -49,8 +49,8 @@ import javax.swing.SwingUtilities;
  1. Randomly select which player makes the first move.
  Repeat the following steps till the game is won by either player or there is a draw
 
- 2. If it is the human player’s move,
- Accept a move in any one of the empty slots. If the human’s move results in winning for the human (three of a type in a row/column), 
+ 2. If it is the human player's move,
+ Accept a move in any one of the empty slots. If the human's move results in winning for the human (three of a type in a row/column), 
  the human is declared winner (END)
  else
  // Computer has to move. Move to step 3.
@@ -63,14 +63,19 @@ import javax.swing.SwingUtilities;
  5. Make a move that creates a fork if possible; 
  Else,
 
- Note: A fork is a move that provides two possible winning moves in the next try, thereby guaranteeing a win since the other player can at best block one of them). An opportunity for a fork is detected by iterating through all rows/columns on the board. If a row/column contained only one of a player’s move, and nothing else, then iterate thorough all overlapping rows/columns (rows/columns that have a common cell between them) and try to find one that contains exactly one of the same player’s move, and nothing else. if this is found and it’s not the position in which the two rows/columns overlap, then you’ve found a fork. If a move is made at the position in which the two rows/columns overlap, a fork is created.
+ Note: A fork is a move that provides two possible winning moves in the next try, thereby guaranteeing a win since the other player can at best 
+ block one of them). 
+ An opportunity for a fork is detected by iterating through all rows/columns on the board. If a row/column contained only one of a player's move, 
+ and nothing else, then iterate thorough all overlapping rows/columns (rows/columns that have a common cell between them) and try to find 
+ one that contains exactly one of the same playerï¿½s move, and nothing else. if this is found and itï¿½s not the position in which the two rows/columns 
+ overlap, then you've found a fork. If a move is made at the position in which the two rows/columns overlap, a fork is created.
 
  6. Detect if the human player can create a fork in the next move. If yes, block this opportunity by making a move at the position that 
  could lead to a fork; 
  Else,
  7. If the center position is open, make a move there; 
  Else,
- 8. If there’s a move from the human player in one of the corner and if the opposite corner is available, make a move in the opposite corner; 
+ 8. If thereï¿½s a move from the human player in one of the corner and if the opposite corner is available, make a move in the opposite corner; 
  Else,
  9. Make a move in an empty corner, if one is available; 
  Else,

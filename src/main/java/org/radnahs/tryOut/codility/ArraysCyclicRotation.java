@@ -1,6 +1,6 @@
 /**
- * <p>Project: tryout </p>
- * <p>Package Name: com.shandar.tryout.codility </p>
+ * <p>Project: tryOut </p>
+ * <p>Package Name: org.radnahs.tryOut.codility </p>
  * <p>File Name: ArraysCyclicRotation.java </p>
  * <p>Create Date: 12-Mar-2020 </p>
  * <p>Create Time: 10:45:35 pm </p>
@@ -10,7 +10,7 @@
  * @version 1.0
  */
 
-package com.shandar.tryout.codility;
+package org.radnahs.tryOut.codility;
 
 import java.util.Arrays;
 
